@@ -1,0 +1,137 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Euclid Circular A', sans-serif;                                   
+}
+
+body {
+    background-color: #FFFFFF;
+    font-family: 'Euclid Circular A', sans-serif;                              
+    padding-left: 3%;
+    padding-right: 3%;
+  }
+
+  .flex-container {
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  .flex-container2 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .flex-container2 > div{
+    padding-top: 20px;
+  }
+
+  .bott{
+    border-bottom:0.3px solid #ebeaed !important;
+    width: 100% !important;
+  }
+
+  .a2{
+    background-color:#0065AB;
+    border: 1px solid#0065AB;
+    border-radius: 10px;
+    border-collapse: collapse;
+    width: 78px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    color: #ffffff !important;
+  }
+
+  .a2:hover {
+    color: #0065AB !important;
+    background-color: #FFFFFF;
+    border: 1px solid#0065AB !important;
+  }
+
+  .a3{
+    background-color:#0065AB;
+    border: 1px solid#0065AB;
+    border-radius: 10px;
+    border-collapse: collapse;
+    width: 344px;
+    padding: 10px !important;
+    margin-top: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    color: #ffffff !important;
+  }
+
+  .a3:hover {
+    color: #0065AB !important;
+    background-color: #FFFFFF;
+    border: 1px solid#0065AB !important;
+  }
+
+  .a4{
+    color: #0065AB;
+    text-decoration: none;
+  }
+
+  .flex-container3 {
+    display: flex;
+    gap: 1.6rem;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .flex-container4 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+  label {
+    display: block !important;
+    font-size: 14px !important;
+    font-family: 'Euclid Circular A', sans-serif !important;
+}
+
+input,
+label {
+    margin: .4rem 0;
+}
+
+.workinput {
+    border: none !important;
+    border-radius: 10px !important;
+    border: 1px solid #D0D5DD !important;
+    border-collapse: collapse !important;
+    padding: 8px !important;
+    width: 344px;
+  }
+
+  .number {
+    border: none !important;
+    border-radius: 10px !important;
+    border: 1px solid #D0D5DD !important;
+    border-collapse: collapse !important;
+    padding: 8px !important;
+    width: 344px;
+  }
+
+  @media screen and (min-width:700px) {
+    .number {
+        width: 712px;
+    }
+
+    .a3{
+        width: 712px;
+    }
+    
+  }
+
+
+  

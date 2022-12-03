@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Compliance page</title>
+    <link rel="stylesheet" href="/CompliancePage1/style.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="shortcut icon" href="/CompliancePage1/Images/Vector (2).png" type="image/x-icon" />
+    <link href="https://fonts.cdnfonts.com/css/euclid-circular-a" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css" />
+</head>
+
+<body class="flex-container">
+    <div class="container-sm pt-3 sidebar flex-column">
+
+        <img class="image" src="..//CompliancePage1/Images/Vector (1).png" />
+
+
+        <div class="pt-3 d-flex flex-column">
+            <a href="#home"><i class="bi bi-person-circle p-1"></i>Admin</a>
+        </div>
+
+        <div class="pt-3 d-flex flex-column ">
+            <a href="#home"><i class="bi bi-shield-check p-1 "></i>Compliance</a>
+            <a href="#news"><i class="bi bi-grid p-1"></i>Dashboard</a>
+            <a href="#contact"><i class="bi bi-stack p-1"></i>Transactions</a>
+            <a href="#about"><i class="bi bi-people-fill p-1"></i>Customers</a>
+            <a href="#about"><i class="bi bi-file-text p-1"></i>Settlements</a>
+        </div>
+
+        <div class="d-flex bott flex-column" style="padding-top: 90px">
+            <a href="#home"><i class="bi bi-stars p-1"></i>Developers</a>
+            <a href="#news"><i class="bi bi-gear p-1"></i>Settings</a>
+        </div>
+
+        <div class="pt-3 d-flex flex-column">
+            <a href="#home"><i class="bi bi-box-arrow-right p-1"></i>Log out</a>
+        </div>
+    </div>
+
+    <div class="container-sm pt-4 main bott1">
+
+        <div class="d-flex justify-content-between ">
+
+            <div>
+                <h1 style="font-size: 30px">Compliance</h1>
+                <p style="color: #667085; font-size: 16px">
+                    Complete the steps below to verify your identity
+                </p>
+            </div>
+
+            <div style="padding-top: 18px;">
+                <p style="color: #4a98ce; font-size: 14px">
+                    Complete verification to activate your account
+                </p>
+
+                <div class="progress" style="height: 10px; background-color: #E0F2FE;">
+                    <div class="progress-bar" style="width:25% ; background-color:#0065AB ; border-radius: 10px;">25%
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+        <div class=" pt-4 d-flex justify-content-between">
+
+            <div>
+                <div class="d-flex flex-row align-items-center gap-3">
+                    <h2>Business information</h2>
+
+                    <p class="steps p-1 "> step 1 of 3</p>
+
+                </div>
+
+                <p style="color: #667085; font-size: 14px ">Please provide your business information</p>
+
+            </div>
+
+            <div class="pt-3">
+                <a class="nav-link a2" href="#">Save and continue</a>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="container-sm pt-4 main ">
+        <form>
+
+            <div class="d-flex inps ">
+                <label class="buss" for="name"> Business name</label>
+
+                <input class="workinput" type="text" id="name" name="name" required minlength="4" maxlength="30"
+                    size="30" placeholder="Jumia Nigeria">
+
+            </div>
+
+            <hr>
+
+            <div class="d-flex inps2 ">
+                <label class="buss" for="phone">Business phone number:</label>
+                <input class="workinput" type="tel" id="phone" name="phone" placeholder="08113897829" required>
+            </div>
+
+            <hr>
+
+            <div class="d-flex inps3 ">
+
+                <label class="buss" for="name"> Business category</label>
+
+                <select class="workinput buss2" name="business category" id="business category">
+                    <option value="select category">select category</option>
+                    <option value=">Sole Proprietorships">Sole Proprietorships</option>
+                    <option value="Partnerships">Partnerships</option>
+                    <option value="Corporations">Corporations</option>
+                    <option value="Limited Liability Company (LLC)">Limited Liability Company (LLC)</option>
+                </select>
+            </div>
+
+            <hr>
+
+            <div class="d-flex inps4 ">
+
+                <div>
+                    <label class="buss" for="name"> Business description</label>
+                    <label class="buss2" for="name">Please give a description about your <br> business</label>
+                </div>
+
+                <div>
+                    <input class="workinput2" type="text" id="name" name="name" required minlength="4" maxlength="275"
+                        size="30" placeholder="">
+                    <label class="buss2" for="name">275 characters left</label>
+                </div>
+
+            </div>
+
+            <hr>
+
+            <div class="d-flex inps5">
+
+                <label class="buss" for="url">Website URL</label>
+
+                <div>
+                    <input class="workinput" type="url" name="url" id="url" placeholder="https://example.com"
+                        pattern="https://.*" size="30" required>
+                    <label class="buss2 gap-1 " for="name"><i class="bi bi-1-circle"></i>this must be a valid
+                        website</label>
+                </div>
+
+
+            </div>
+
+            <hr>
+
+            <div class="d-flex inps ">
+                <label class="buss" for="name"> Office address</label>
+
+                <input class="workinput" type="text" id="name" name="name" required minlength="4" maxlength="30"
+                    size="30" placeholder="">
+
+            </div>
+
+            <hr>
+
+            <div class="d-flex inps6 ">
+
+                <label class="buss" for="name"> country</label>
+
+                <select class="workinput buss3" name="country category" id="country category">
+                    <option value="Nigeria">Nigeria</option>
+                    <option value=">Ghana">Ghana</option>
+                    <option value="Kenya">Kenya</option>
+                    <option value="Liberia">Liberia</option>
+                    <option value="South Africa">South Africa</option>
+                </select>
+            </div>
+
+            <hr>
+
+            <div class="d-flex inps7 ">
+                <label for="number">Estimated monthly sale</label>
+
+                <input class="number" type="number" id="number" name="number" min="" max=""
+                    placeholder="10,000-100,000">
+            </div>
+
+            <hr>
+
+        </form>
+
+    </div>
+
+</body>
+
+</html>
