@@ -5,8 +5,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Compliance 2nd page</title>
-    <link rel="stylesheet" href="/CompliancePage2/style.css" />
+    <title>Compliance 3rd page</title>
+    <link rel="stylesheet" href="/CompliancePage3/style.css" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" />
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
     <link rel="shortcut icon" href="/CompliancePage1/Images/Vector (2).png" type="image/x-icon" />
@@ -61,7 +61,7 @@
                 </p>
 
                 <div class="progress" style="height: 10px; background-color: #E0F2FE;">
-                    <div class="progress-bar" style="width:75% ; background-color:#0065AB ; border-radius: 10px;">
+                    <div class="progress-bar" style="width:90% ; background-color:#0065AB ; border-radius: 10px;">
                     </div>
                 </div>
             </div>
@@ -72,13 +72,13 @@
 
             <div>
                 <div class="d-flex flex-row align-items-center gap-3">
-                    <h2>Business documents</h2>
+                    <h2>Settlement details</h2>
 
-                    <p class="steps p-1 "> step 2 of 3</p>
+                    <p class="steps p-1 "> step 3 of 3</p>
 
                 </div>
 
-                <p style="color: #667085; font-size: 14px ">Please upload the required documents</p>
+                <p style="color: #667085; font-size: 14px ">Complete the steps below to verify your identity</p>
 
             </div>
 
@@ -96,11 +96,11 @@
                     display: inline-block !important;
                     color: black !important;
                     font-size: 14px !important;
-                    font-weight: 600px !important;" href="..//CompliancePage1/">back</a>
+                    font-weight: 600px !important;" href="..//CompliancePage2/">cancel</a>
                 </div>
 
                 <div class="pt-3">
-                    <a class="nav-link a2" href="..//CompliancePage3/">Save and continue</a>
+                    <a class="nav-link a2" href="#">Submit</a>
                 </div>
 
             </div>
@@ -113,106 +113,59 @@
 
             <form>
 
-                <div class="d-flex inp  ">
+                <div class="d-flex inps ">
 
-                    <div>
-                        <label class="buss" for="phone">Business logo</label>
-                        <label class="buss2" for="phone">We use your business logo on pages to <br> improve creadibility
-                            for
-                            your customers</label>
-                    </div>
+                    <label class="buss" for="name"> Bank name</label>
 
+                    <select class="workinput buss2" name="business category" id="business category">
+                        <option value="select category">First Bank</option>
+                        <option value=">Sole Proprietorships">Gt-Bank</option>
+                        <option value="Partnerships">Access Bank</option>
+                        <option value="Corporations">Zenith Bank</option>
+                        <option value="Limited Liability Company (LLC)">United Bank Of Africa</option>
+                    </select>
+                </div>
 
-                    <a class="workinput" href="#"> <i class="bi bi-upload p-1"></i> Browse files to upload (PNG, JPEG,
-                        JPG
-                        or SVG)
-                        max sixe is 2MB</a>
+                <hr>
 
+                <div class="d-flex inps2 ">
+                    <label for="number">Account number</label>
+
+                    <input class="number" type="number" id="number" name="number" min="" max="" placeholder="">
 
                 </div>
 
                 <hr>
 
-                <div class="d-flex inp2  ">
+                <div class="d-flex inps3 ">
 
                     <div>
-                        <label class="buss" for="phone">Certificate of registration</label>
+                        <label class="buss" for="phone">Verify Natural Person <br><span class="buss2"> This verification
+                                should be done by the <br> business director</span></label>
                     </div>
 
 
 
-                    <a class="workinput" href="#"> <i class="bi bi-upload p-1"></i> Browse files to upload (PNG, JPEG,
-                        JPG
-                        or SVG)
-                        max sixe is 2MB</a>
-
+                    <a class="workinput2 " href="#"> <i class="bi bi-upload p-2"></i> Start Verification</a>
 
                 </div>
 
                 <hr>
 
-                <div class="d-flex inp3  ">
-
-                    <div>
-                        <label class="buss" for="phone">NDPR</label>
-                    </div>
-
-
-
-                    <a class="workinput" href="#"> <i class="bi bi-upload p-1"></i> Browse files to upload (PNG, JPEG,
-                        JPG
-                        or SVG)
-                        max sixe is 2MB</a>
-
-
-                </div>
-
                 <hr>
 
-                <div class="d-flex inp4  ">
-
-                    <div>
-                        <label class="buss" for="phone">License by registered authority</label>
-                    </div>
-
-
-
-                    <a class="workinput" href="#"> <i class="bi bi-upload p-1"></i> Browse files to upload (PNG, JPEG,
-                        JPG
-                        or SVG)
-                        max sixe is 2MB</a>
-
-
+                <div class="gap-3">
+                    <input type="checkbox" id="TOS" name="TOS" checked>
+                    <label for="TOS"> I agree to all <span style="color:#0065AB;"><b>Terms of Service</b></span></label>
                 </div>
-
-                <hr>
-
-                <div class="d-flex inp5  ">
-
-                    <div>
-                        <label class="buss" for="phone">Proof of address</label>
-                    </div>
-
-
-
-                    <a class="workinput" href="#"> <i class="bi bi-upload p-1"></i> Browse files to upload (PNG, JPEG,
-                        JPG
-                        or SVG)
-                        max sixe is 2MB</a>
-
-
-                </div>
-
-                <hr>
 
             </form>
 
         </div>
 
-        <div class=" d-flex gap-3 right">
+        <div class="d-flex gap-3  align-items-center right">
 
-            <div class="pt-3 ">
-
+            <div class="pt-3">
                 <a class="nav-link" style="  background-color:#FCFCFD;
                 border: 1px solid #D0D5DD!important;
                 border-radius: 8px;
@@ -224,11 +177,11 @@
                 display: inline-block !important;
                 color: black !important;
                 font-size: 14px !important;
-                font-weight: 600px !important;" href="..//CompliancePage1/">back</a>
+                font-weight: 600px !important;" href="..//CompliancePage2/">cancel</a>
             </div>
 
-            <div class="pt-3 ">
-                <a class="nav-link a2" href="..//CompliancePage3/">Save and continue</a>
+            <div class="pt-3">
+                <a class="nav-link a2" href="#">Submit</a>
             </div>
 
         </div>

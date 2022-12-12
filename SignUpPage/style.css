@@ -1,127 +1,120 @@
 * {
-    padding: 0;
-    margin: 0;
-    text-decoration: none;
-    list-style: none;
-    box-sizing: border-box;
-    font-family: 'Euclid Circular A', sans-serif;                                
-  }
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+  font-family: 'Euclid Circular A', sans-serif;
+}
 
-  body {
-    background-color: #FFFFFF;
-    font-family: 'Euclid Circular A', sans-serif;
-    padding-left: 3%;
-    padding-right: 3%;
-  }
+body {
+  background-color: #FFFFFF;
+  font-family: 'Euclid Circular A', sans-serif;
+  padding-left: 3%;
+  padding-right: 3%;
+}
 
-  .flex-container {
-    width: 100%;
-    height: 100%;
-  }
+.flex-container {
+  width: 100%;
+  height: 100%;
+}
 
-  .flex-container2 {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-  }
+.flex-container2 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
 
-  .flex-container2 > div{
-    padding-top: 20px;
-  }
+.flex-container2>div {
+  padding-top: 20px;
+}
 
-  .bott{
-    border-bottom:0.3px solid #ebeaed;
-    width: 100%;
-  }
+.bott {
+  border-bottom: 0.3px solid #ebeaed;
+  width: 100%;
+}
 
-  .a2{
-    background-color:#0065AB;
-    border: 1px solid#0065AB;
-    border-radius: 8px;
-    border-collapse: collapse;
-    width: 158px;
-    height: 44px;
-    padding: 10px, 18px, 10px, 18px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    color: #ffffff !important;
-  }
+.a2 {
+  background-color: #0065AB;
+  border: 1px solid#0065AB;
+  border-radius: 8px;
+  border-collapse: collapse;
+  width: 158px;
+  height: 44px;
+  padding: 10px, 18px, 10px, 18px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  color: #ffffff !important;
+}
 
-  .a2:hover {
-    color: #0065AB !important;
-    background-color: #FFFFFF;
-    border: 1px solid#0065AB !important;
-  }
+.a2:hover {
+  color: #0065AB !important;
+  background-color: #FFFFFF;
+  border: 1px solid#0065AB !important;
+}
 
-  .a3{
-    background-color:#0065AB;
-    border: 1px solid#0065AB;
-    border-radius: 10px;
-    border-collapse: collapse;
-    width: 340px;
-    padding: 10px !important;
-    margin-top: 20px;
-    margin-right: px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    color: #ffffff !important;
-  }
+.a3 {
+  background-color: #0065AB;
+  border: 1px solid#0065AB;
+  border-radius: 10px;
+  border-collapse: collapse;
+  width: 340px;
+  padding: 10px !important;
+  margin-top: 20px;
+  margin-right: px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  color: #ffffff !important;
+}
 
-  .a3:hover {
-    color: #0065AB !important;
-    background-color: #FFFFFF;
-    border: 1px solid#0065AB !important;
-  }
+.a3:hover {
+  color: #0065AB !important;
+  background-color: #FFFFFF;
+  border: 1px solid#0065AB !important;
+}
 
-  .a4{
-    color: #0065AB;
-    text-decoration: none;
-  }
+.a4 {
+  color: #0065AB;
+  text-decoration: none;
+}
 
-  label {
-    display: block !important;
-    font-size: 14px !important;
-    font-family: 'Euclid Circular A', sans-serif !important;
-  }
+label {
+  display: block !important;
+  font-size: 14px !important;
+  font-family: 'Euclid Circular A', sans-serif !important;
+}
 
-  input,
-  label {
-    margin: .4rem 0 !important;
-  }
+input,
+label {
+  margin: .4rem 0 !important;
+}
 
-  .workinput {
-    border: none !important;
-    border-radius: 10px !important;
-    border: 1px solid #D0D5DD !important;
-    border-collapse: collapse !important;
-    padding: 8px !important;
-    width: 344px;
-  }
+.workinput {
+  border: none !important;
+  border-radius: 10px !important;
+  border: 1px solid #D0D5DD !important;
+  border-collapse: collapse !important;
+  padding: 8px !important;
+  width: 344px;
+}
 
-  .password-container{
-    position: relative;
-  }
+.password-container {
+  position: relative;
+}
 
-  .password-container input[type="password"],
-  .password-container input[type="text"]{
-    width: 100%;
-    padding: 12px 36px 12px 12px;
-    box-sizing: border-box;
-  }
+.password-container input[type="password"],
+.password-container input[type="text"] {
+  width: 100%;
+  padding: 12px 36px 12px 12px;
+  box-sizing: border-box;
+}
 
-  .fa-eye{
-      position: absolute;
-      top: 58%;
-      right: 4%;
-      cursor: pointer;
-      color: lightgray;
-    }
-
-
-
-
-
-
-
+.fa-eye {
+  position: absolute;
+  top: 58%;
+  right: 4%;
+  cursor: pointer;
+  color: lightgray;
+}

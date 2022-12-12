@@ -69,13 +69,13 @@
                         pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
                         title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters"
                         placeholder="********" required>
-                        <a onclick="return showpassword()">
-                    <i class="fa-solid fa-eye" id="eye"></i></a>
+                    <a onclick="return showpassword()">
+                        <i class="fa-solid fa-eye" id="eye"></i></a>
 
                 </div>
 
                 <div>
-                    <a href="..//CompliancePage1/"class="nav-link a3">Submit</a>
+                    <a href="..//CompliancePage1/" class="nav-link a3">Submit</a>
                 </div>
 
         </div>
@@ -88,10 +88,10 @@
     </div>
 
     <script>
-        function showpassword(){
+        function showpassword() {
             var id = "password";
             var id_type = document.getElementById(id).type
-            if(id_type == "text"){
+            if (id_type == "text") {
                 document.getElementById(id).type = "password"
             } else {
                 document.getElementById(id).type = "text"
@@ -142,6 +142,8 @@
 
         }
     </script>
+
+    
 </body>
 
 </html>
