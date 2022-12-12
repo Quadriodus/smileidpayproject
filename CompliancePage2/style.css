@@ -83,6 +83,12 @@ body {
   font-weight: 600px !important;
 }
 
+.a2:hover {
+  color: #0065AB !important;
+  background-color: #FFFFFF;
+  border: 1px solid#0065AB !important;
+}
+
 .a3 {
   background-color: #FCFCFD;
   border: 1px solid #4c87e5 !important;
