@@ -14,18 +14,22 @@ body {
   }
 
   .flex-container {
-   
     height: 100%;
     align-items: center;
+  }
+
+  .boarder{
+    border: none !important;
+    border-right: 1.7px solid #ebeaed !important;
   }
 
   .sidebar {
     margin: 0;
     padding: 0;
     width: 230px !important;
-    background-color:rgba(242, 241, 241, 0.711);
+    background-color:#FFFFFF;
     position: fixed;
-    height: 90%;
+    height:100%;
     z-index: 1;
     top: 0;
     left: 0;
@@ -47,10 +51,18 @@ body {
     border-radius: 10px;
     color:#0065AB;
   }
+
+  a.active {
+    background-color: #F0F9FF;
+    color:  #344054;
+    border-radius: 10px;
+}
+
   .bott{
     border-bottom:1.7px solid #ebeaed !important;
     width: 100% !important;
   }
+  
   .main {
     margin-left: 235px !important; /* Same as the width of the sidenav */
     padding: 0px 10px;
@@ -80,12 +92,13 @@ label {
   border: 1px solid #D0D5DD !important;
   border-collapse: collapse !important;
   padding: 8px !important;
-  width: 344px;
+  width: 512px;
 }
 
 .bott1 {
   border-bottom:1.7px solid #ebeaed !important;
   width: 77% !important;
+  
 
 }
 
@@ -147,7 +160,7 @@ label {
   border-collapse: collapse !important;
   padding: 8px !important;
   height: 128px;
-  width: 344px;
+  width: 512px;
 }
 
 .number {
@@ -156,7 +169,7 @@ label {
   border: 1px solid #D0D5DD !important;
   border-collapse: collapse !important;
   padding: 8px !important;
-  width: 344px;
+  width: 512px;
 }
 
 .a2{
@@ -174,77 +187,10 @@ label {
   font-weight: 600px !important;
 }
 
-.bi-shield-check {
-  color:#667085;
+.right {
+  float: right;
 }
 
-.bi-shield-check:hover {
-  color:#0065AB;
-}
-
-.bi-person-circle {
-  color:#667085;
-}
-
-.bi-person-circle:hover {
-  color:#0065AB;
-}
-
-.bi-grid {
-  color:#667085;
-}
-
-.bi-grid:hover {
-  color:#0065AB;
-}
-
-.bi-stack {
-  color:#667085;
-}
-
-.bi-stack:hover {
-  color:#0065AB;
-}
-
-.bi-people-fill {
-  color:#667085;
-}
-
-.bi-people-fill:hover {
-  color:#0065AB;
-}
-
-.bi-file-text {
-  color:#667085;
-}
-
-.bi-file-text:hover {
-  color:#0065AB;
-}
-
-.bi-stars {
-  color:#667085;
-}
-
-.bi-stars:hover {
-  color:#0065AB;
-}
-
-.bi-gear {
-  color:#667085;
-}
-
-.bi-gear:hover {
-  color:#0065AB;
-}
-
-.bi-box-arrow-right {
-  color:#667085;
-}
-
-.bi-box-arrow-right:hover {
-  color:#0065AB;
-}
 
 
 
